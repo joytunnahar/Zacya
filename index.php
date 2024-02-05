@@ -34,7 +34,7 @@
             <ul class="list-unstyled">
               <li class="d-flex align-items-center">
                 <div class="posts-thumb">
-                  <a href="#"><img loading="lazy" alt="img" src="images/news/news1.jpg"></a>
+                  <a href="#"><img loading="lazy" alt="img" src="<?php echo get_template_directory_uri(); ?>/images/news/news1.jpg"></a>
                 </div>
                 <div class="post-info">
                   <h4 class="entry-title">
@@ -45,7 +45,7 @@
 
               <li class="d-flex align-items-center">
                 <div class="posts-thumb">
-                  <a href="#"><img loading="lazy" alt="img" src="images/news/news2.jpg"></a>
+                  <a href="#"><img loading="lazy" alt="img" src="<?php echo get_template_directory_uri(); ?>/images/news/news2.jpg"></a>
                 </div>
                 <div class="post-info">
                   <h4 class="entry-title">
@@ -56,7 +56,7 @@
 
               <li class="d-flex align-items-center">
                 <div class="posts-thumb">
-                  <a href="#"><img loading="lazy" alt="img" src="images/news/news3.jpg"></a>
+                  <a href="#"><img loading="lazy" alt="img" src="<?php echo get_template_directory_uri(); ?>/images/news/news3.jpg"></a>
                 </div>
                 <div class="post-info">
                   <h4 class="entry-title">
@@ -113,7 +113,7 @@
       <div class="col-lg-8 mb-5 mb-lg-0 order-0 order-lg-1">
         <div class="post">
           <div class="post-media post-image">
-            <img loading="lazy" src="images/news/news1.jpg" class="img-fluid" alt="post-image">
+            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/news/news1.jpg" class="img-fluid" alt="post-image">
           </div>
 
           <div class="post-body">
@@ -190,7 +190,7 @@
 
         <div class="post">
           <div class="post-media post-image">
-            <img loading="lazy" src="images/news/news3.jpg" class="img-fluid" alt="post-image">
+            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/images/news/news3.jpg" class="img-fluid" alt="post-image">
           </div>
 
           <div class="post-body">
