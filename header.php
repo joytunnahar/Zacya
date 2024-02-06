@@ -145,7 +145,8 @@ FACEBOOK: https://www.facebook.com/themefisher
                     'theme_location'=>'primary-menu',
                     'container'=>'ul',
                     'menu_class'=>'nav navbar-nav mr-auto',
-                    'fallback_cb'=>'zacyafc'
+                    'fallback_cb'=>'zacyafc',
+                    'walker'=> new WP_Bootstrap_Navwalker()
                   ));
                   ?>
 

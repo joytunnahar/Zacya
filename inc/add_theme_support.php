@@ -4,6 +4,8 @@
 add_action('after_setup_theme', 'zacya_theme_support');
 
 if (!function_exists('zacya_theme_support')){
+
+    // add menus
     function zacya_theme_support(){
         add_theme_support('menus');
 
@@ -12,4 +14,7 @@ if (!function_exists('zacya_theme_support')){
             'footer-menu'=> 'Footer Menu'
         )); 
         }
+
+        // Add post thumbnails
+        add_theme_support( 'post-thumbnails' );
 }
