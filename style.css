@@ -16,3 +16,32 @@ Text Domain: zacya
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/* pagination style */
+nav .navigation{
+margin-bottom: -5px !important; 
+}
+nav > div.nav-links{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+nav > .nav-links > a{
+    border-radius: 0 !important;
+    margin-right: 8px;
+    color: #7c7c7c;
+}
+nav > .nav-links > a.page-numbers{
+position: relative;
+display: block;
+padding: 0.5rem 0.75rem;
+margin-left: -1px;
+line-height: 1.25;
+color: #7c7c7c;
+background-color: #fff;
+border: 1px solid green;
+margin-right: 8px;
+
+
+}
