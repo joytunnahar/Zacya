@@ -11,7 +11,9 @@
         <div class="row">
           <div class="col-lg-12">
               <div class="banner-heading">
-                <h1 class="banner-title">News</h1>
+
+             <?php the_archive_title( '<h1 class="banner-title">', '</h1>' ); ?>
+                
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                       <li class="breadcrumb-item"><a href="#">Home</a></li>
