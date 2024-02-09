@@ -20,13 +20,14 @@ FACEBOOK: https://www.facebook.com/themefisher
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
 
   <!-- Basic Page Needs
 ================================================== -->
   <meta charset="utf-8">
-  <title>Constra - Construction Html5 Template</title>
+  <?php bloginfo('charset') ?>
+
 
   <!-- Mobile Specific Metas
 ================================================== -->

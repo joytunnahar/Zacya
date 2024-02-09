@@ -15,11 +15,7 @@
              <?php the_archive_title( '<h1 class="banner-title">', '</h1>' ); ?>
                 
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">News</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">News left sidebar</li>
-                    </ol>
+                <?php echo mj_wp_breadcrumb(); ?>
                 </nav>
               </div>
           </div><!-- Col end -->

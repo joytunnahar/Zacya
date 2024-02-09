@@ -17,4 +17,6 @@ if (!function_exists('zacya_theme_support')){
 
         // Add post thumbnails
         add_theme_support( 'post-thumbnails' );
+
+        add_theme_support('title-tag');
 }

@@ -10,11 +10,7 @@
               <div class="banner-heading">
                 <h1 class="banner-title"><?php the_title(); ?></h1>
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">company</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">About Us</li>
-                    </ol>
+                <?php echo mj_wp_breadcrumb(); ?>
                 </nav>
               </div>
           </div><!-- Col end -->
