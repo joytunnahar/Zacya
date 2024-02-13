@@ -71,6 +71,11 @@
               <?php the_content(); ?>
             </div>
 
+            <h1>
+              <?php echo get_post_meta( get_the_ID(), 'name-project', true ); ?>
+              <?php echo get_post_meta( get_the_ID(), 'location', true ); ?>
+            </h1>
+
             <div class="tags-area d-flex align-items-center justify-content-between">
               <div class="post-tags">
                 <a href="#">Construction</a>

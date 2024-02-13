@@ -12,7 +12,7 @@ $args= array(
 	'public'      => true,
 	'has_archive' => true,
 	'rewrite' => array('slug'=>'portpro'),
-	'supports' => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ,'elementor'),
+	'supports' => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ,'elementor', 'custom-fields'),
 	'show_in_rest' => true
 	
 );
