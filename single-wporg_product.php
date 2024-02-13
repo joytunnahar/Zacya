@@ -27,7 +27,7 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-8 mb-5 mb-lg-0">
+      <div class="col-lg-12 mb-5 mb-lg-0">
 
         <!-- dynamic post loop-->
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -131,8 +131,7 @@
         
       </div><!-- Content Col end -->
 
-    <!-- sidebar -->
-    <?php get_sidebar(); ?>
+   
 
     </div><!-- Main row end -->
 
